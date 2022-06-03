@@ -1,0 +1,14 @@
+.home-mid-section-button {
+  color: white;
+  background: #1682b8;
+  border-radius: 4px;
+  width: 120px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.login-button {
+  @extend .home-mid-section-button;
+  background-color: white;
+  color: #1682b8;
+}

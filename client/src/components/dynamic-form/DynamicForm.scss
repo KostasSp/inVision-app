@@ -1,0 +1,80 @@
+.contact-form-label {
+  margin-bottom: -15px;
+}
+
+.contact-title {
+  width: 86%;
+  font-size: 13px;
+}
+
+.container {
+  display: block;
+  gap: 15px;
+}
+
+label {
+  font-size: 11px;
+}
+
+.col0,
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9 {
+  width: 84%;
+  height: 30px;
+  opacity: 0.6;
+  border-width: thin;
+  border-radius: 2px;
+}
+
+.message-field {
+  margin-right: 34px;
+}
+
+.message-field input[type="text"] {
+  height: 150px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.check-box {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+  margin: -10px 0 10px -3px;
+}
+
+.add-phone {
+  width: 85.5%;
+  height: 30px;
+  background-color: rgb(227, 236, 236);
+  color: blue;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button {
+  width: 85.5%;
+  height: 36px;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #335ead8a;
+  border: none;
+}
+
+.icon-submit {
+  height: 17px;
+  width: 17px;
+  float: left;
+}

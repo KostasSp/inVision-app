@@ -1,0 +1,16 @@
+.navbar {
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 9999;
+  border-bottom: 0.001px solid #aaa;
+  border-bottom-width: thin;
+}
+
+.nav-items {
+  font-size: 13px;
+  font-weight: 450;
+}
