@@ -52,7 +52,7 @@ const DynamicForm = () => {
   //sends form data to an external API (made with a simple express.js backend)
   const sendToAPI = (e) => {
     e.preventDefault();
-    fetch("http://localhost:5000/getAPI", {
+    fetch("http://localhost:5000/postAPI", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formFields.entries()),
